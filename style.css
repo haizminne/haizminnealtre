@@ -12,6 +12,10 @@ body {
 .navbar {
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  background-color: #fff;
 }
 
 .navbar-toggler i {
@@ -22,6 +26,10 @@ body {
   color: #a0937d;
   font-weight: 700;
   text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #a0937d;
 }
 .navbar-nav {
   text-align: center;
