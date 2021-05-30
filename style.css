@@ -294,7 +294,9 @@ body {
   #gallery hr {
     width: 17%;
   }
-
+  .gallery-card:not(first-child) {
+    margin-top: 15px;
+  }
   #contact hr {
     border: 3px solid #fff;
     width: 20%;
